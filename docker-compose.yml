@@ -6,7 +6,7 @@ services:
     environment:
       - VERSION=10
       - PASSWORD=123456
-      - RAM=12G
+      - RAM=8G
       - CPU=4
     ports:
       - "8006:8006"    # noVNC (yang kau tengah pakai sekarang)
