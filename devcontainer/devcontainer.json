@@ -1,0 +1,8 @@
+{
+  "name": "Windows 10 Mudah",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "win10",
+  "workspaceFolder": "/work",
+  "forwardPorts": [8006],
+  "postCreateCommand": "echo Windows lagi start bro, tunggu 5-10 minit je"
+}
