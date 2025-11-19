@@ -9,7 +9,8 @@ services:
       - RAM=12G
       - CPU=6
     ports:
-      - "8006:8006"
+      - "8006:8006"    # noVNC (yang kau tengah pakai sekarang)
+      - "3389:3389"    # ← tambah baris ni kalau belum ada
       # ini untuk buka Windows dalam browser
     cap_add:
       - ALL
